@@ -1,6 +1,6 @@
 _Exploring the world through code!_
 
-[SQL](sql.md) | [Python](python.md) | []()
+Experimenting with GitHub, MarkDown, Jekyll & various publishing systems.
 
 
 
