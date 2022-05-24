@@ -11,6 +11,7 @@
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
+      <a href="{{page.url}}" id="theme-toggle" onclick="modeSwitcher()" style="cursor: pointer;"></a>
 <!-- Commenting this IF block to avoid having REPO name as Main Heading
   -- https://github.community/t/remove-heading/10323
 
@@ -26,6 +27,7 @@
       </div>
       {% endif %}
     </div>
+    <script src="/scripts/mode-switcher.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
   </body>
