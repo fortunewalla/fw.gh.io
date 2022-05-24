@@ -6,7 +6,7 @@ html, html[data-theme="light"] {
   --main-background-color: hsl(0, 0%, 90%);
   --main-text-color: hsl(0, 0%, 20%);
   --tt-background-color: rgba(27,31,35,0.05);
-  --syntax-background-color: #f6f8fa;  
+  --syntax-background-color: rgba(27,31,35,0.05);  
 }
 
 html[data-theme="dark"] {
@@ -14,7 +14,7 @@ html[data-theme="dark"] {
   --main-background-color: hsl(0, 0%, 20%);
   --main-text-color: hsl(0, 0%, 85%);
   --tt-background-color: rgba(255, 255, 255, 0.05);
-  --syntax-background-color: #fbffff;
+  --syntax-background-color: rgba(255, 255, 255, 0.05);
 }
 
 
@@ -24,7 +24,7 @@ html[data-theme="dark"] {
     --main-background-color: hsl(0, 0%, 20%);
     --main-text-color: hsl(0, 0%, 85%);
 	--tt-background-color: rgba(255, 255, 255, 0.05);
-	--syntax-background-color: #fbffff;
+	--syntax-background-color: rgba(255, 255, 255, 0.05);
     }
 
     html[data-theme="light"] {
@@ -32,7 +32,7 @@ html[data-theme="dark"] {
     --main-background-color: hsl(0, 0%, 90%);
   	--main-text-color: hsl(0, 0%, 20%);
 	--tt-background-color: rgba(27,31,35,0.05); 
-	--syntax-background-color: #f6f8fa;
+	--syntax-background-color: rgba(27,31,35,0.05);
   } 
 }
 
@@ -60,12 +60,12 @@ body, td {
 .markdown-body table td {
 border-color: var(--main-text-color);
 }
-/*
-.markdown-body .highlight pre, .markdown-body pre {
+
+.markdown-body .highlight pre, 
+.markdown-body .highlight {
+	color: var(--main-text-color);
 	background-color: var(--syntax-background-color);
 }
-
-*/
 
 a {
 	color: var(--link-color);
@@ -82,14 +82,11 @@ article {
 h1 {
 	font-size: 2rem;
 }
-
 h2 {
 	font-size: 1.5rem;
 	margin-top: 2em;
 }
-
 p {
 	font-size: 1.25rem;
 } 
 */
-
