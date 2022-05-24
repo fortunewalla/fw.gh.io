@@ -5,30 +5,34 @@ html, html[data-theme="light"] {
   --link-color: rgb(0, 112, 201);
   --main-background-color: hsl(0, 0%, 90%);
   --main-text-color: hsl(0, 0%, 20%);
-  --code-background-color: rgba(27,31,35,0.05);	
+  --tt-background-color: rgba(27,31,35,0.05);
+  --syntax-background-color: #f6f8fa;  
 }
 
 html[data-theme="dark"] {
   --link-color: rgb( 100, 210, 255);
   --main-background-color: hsl(0, 0%, 20%);
   --main-text-color: hsl(0, 0%, 85%);
-  --code-background-color: rgba(255, 255, 255, 0.05);
+  --tt-background-color: rgba(255, 255, 255, 0.05);
+  --syntax-background-color: #fbffff;
 }
 
 
 @media (prefers-color-scheme: dark) {
     html, html[data-theme="dark"] {
-      --link-color: rgb( 100, 210, 255);
-    	--main-background-color: hsl(0, 0%, 20%);
-    	--main-text-color: hsl(0, 0%, 85%);
-	--code-background-color: rgba(255, 255, 255, 0.05);
+    --link-color: rgb( 100, 210, 255);
+    --main-background-color: hsl(0, 0%, 20%);
+    --main-text-color: hsl(0, 0%, 85%);
+	--tt-background-color: rgba(255, 255, 255, 0.05);
+	--syntax-background-color: #fbffff;
     }
 
     html[data-theme="light"] {
-		  --link-color: rgb(0, 112, 201);
-    	--main-background-color: hsl(0, 0%, 90%);
+	--link-color: rgb(0, 112, 201);
+    --main-background-color: hsl(0, 0%, 90%);
   	--main-text-color: hsl(0, 0%, 20%);
-	--code-background-color: rgba(27,31,35,0.05); 
+	--tt-background-color: rgba(27,31,35,0.05); 
+	--syntax-background-color: #f6f8fa;
   } 
 }
 
@@ -40,22 +44,28 @@ body, td {
 	padding: 1em;*/
 }
 
-/* --code-background-color: rgba(27,31,35,0.05); light
---code-background-color: rgba(255, 255, 255, 0.05); dark */
-
-.markdown-body code, .markdown-body tt {
+/* --tt-background-color: rgba(27,31,35,0.05); light
+--tt-background-color: rgba(255, 255, 255, 0.05); dark */
+/* tt-background-color should not use `code` and `pre` as it is linked with syntax highllighting. Only use tt */
+.markdown-body tt {
 	color: var(--main-text-color);
-	background-color: var(--code-background-color)
+	background-color: var(--tt-background-color)
 }
 
-.markdown-body code, .markdown-body tt {
+.markdown-body tt {
 	color: var(--main-text-color);
-	background-color: var(--code-background-color)
+	background-color: var(--tt-background-color)
 }
 
 .markdown-body table td {
 border-color: var(--main-text-color);
 }
+/*
+.markdown-body .highlight pre, .markdown-body pre {
+	background-color: var(--syntax-background-color);
+}
+
+*/
 
 a {
 	color: var(--link-color);
@@ -65,6 +75,8 @@ article {
 	max-width: 650px; 
 	margin: 2em auto;
 }
+
+
 
 /*
 h1 {
@@ -78,4 +90,6 @@ h2 {
 
 p {
 	font-size: 1.25rem;
-} */
+} 
+*/
+
