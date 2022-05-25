@@ -50,11 +50,7 @@ body, td {
 .markdown-body tt {
 	color: var(--main-text-color);
 	background-color: var(--tt-background-color)
-}
-
-.markdown-body tt {
-	color: var(--main-text-color);
-	background-color: var(--tt-background-color)
+	font-size: 100%;
 }
 
 .markdown-body table td {
@@ -65,6 +61,12 @@ border-color: var(--main-text-color);
 .markdown-body .highlight {
 	color: var(--main-text-color);
 	background-color: var(--syntax-background-color);
+}
+
+.markdown-body pre > code {
+
+	font-size: 110%;
+
 }
 
 a {
