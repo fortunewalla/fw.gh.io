@@ -65,17 +65,15 @@ border-color: var(--main-text-color);
 
 .markdown-body pre > code {
 
-	font-size: 1.25em;
+	font-size: 1.9em;
 	background-color: var(--syntax-background-color);
 }
 
 .markdown-body code, .markdown-body tt {
 	
-	font-size: 1.2em;
-	background-color: var(--syntax-background-color);	
+	font-size: 1.9em;
+
 }
-
-
 
 a {
 	color: var(--link-color);
