@@ -62,10 +62,11 @@ border-color: var(--main-text-color);
 	background-color: var(--syntax-background-color);
 }
 
+
 .markdown-body pre > code {
 
 	font-size: 1.25em;
-
+	background-color: var(--syntax-background-color);
 }
 
 .markdown-body code, .markdown-body tt {
