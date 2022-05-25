@@ -50,7 +50,6 @@ body, td {
 .markdown-body tt {
 	color: var(--main-text-color);
 	background-color: var(--tt-background-color)
-	font-size: 100%;
 }
 
 .markdown-body table td {
@@ -68,6 +67,13 @@ border-color: var(--main-text-color);
 	font-size: 110%;
 
 }
+
+.markdown-body code, .markdown-body tt {
+	
+	font-size: 100%;
+}
+
+
 
 a {
 	color: var(--link-color);
