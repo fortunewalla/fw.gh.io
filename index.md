@@ -1,8 +1,8 @@
-## Fortune Walla
+### Fortune Walla
 
 _Exploring the world through code!_
 
-Articles & notes for a variety of technical, business & cultural topics. The best way to use this website is to browse through it or use your browser search feature. This website is built using mmpt.
+Articles & notes on a variety of technical, business & cultural topics. 
 
 <img src="fwindexlogo.jpg"/>
 
@@ -37,5 +37,7 @@ links = re.findall('"(https?://.*?)"', html)
 for link in links:
     print(link)
 ```
+
+This website is built using [mmpt](https://github.com/fortunewalla/mmpt/) template.
 
 _© 2022 Fortunewalla_
