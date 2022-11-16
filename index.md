@@ -2,6 +2,21 @@ _Exploring the world through code!_
 
 [SQL](sql.md) | [Git](git.md) | [GitHub](github.md) | []() | []() | []() | []()
 
+test1:
+
+![[fwindexlogo.jpg]]
+
+test2:
+
+![[glider.svg]]
+
+test3:
+
+<img src="fwindexlogo.jpg" />
+
+test4:
+
+<img src="glider.svg" />
 
 This is some random `x` and `y` and `z`.
 
