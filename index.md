@@ -1,29 +1,23 @@
+## Fortune Walla
+
 _Exploring the world through code!_
 
-[SQL](sql.md) | [Git](git.md) | [GitHub](github.md) | []() | []() | []() | []()
+Articles & notes for a variety of technical, business & cultural topics. The best way to use this website is to browse through it or use your browser search feature. This website is built using mmpt.
 
-test1:
+<img src="fwindexlogo.jpg"/>
 
-![[fwindexlogo.jpg]]
+This website acts as a braindump, linkdump & study progress. Journey updates daily. Tech updates as and when required. Product updates are once a week.
 
-test2:
+### Testing Section
 
-![[glider.svg]]
+Using backticks \` to test variables `x` and `y` and `z`.
 
-test3:
+\$\alpha+\beta=\gamma\$ latex code $\alpha+\beta=\gamma$.
 
-<img src="fwindexlogo.jpg" />
+< tt > tag testing <tt>int x,y=1,2;</tt>. OK 
 
-test4:
 
-<img src="glider.svg" />
-
-This is some random `x` and `y` and `z`.
-
-Also this is some latex code $\alpha+\beta=\gamma$. Hope all this works.
-
-Also one more thing <tt>int x,y=1,2;</tt>. OK then.
-
+Code block:
 ```
 import requests
 import re
