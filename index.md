@@ -4,7 +4,13 @@ _Exploring the world through code & data!_
 
 Articles & notes on a variety of technical, business & cultural topics. 
 
+![](fwindexlogo.jpg)
+
+### BEFORE QUOTES
+
 ![]("fwindexlogo.jpg")
+
+### BEFORE IMG
 
 <img src="fwindexlogo.jpg"/>
 
