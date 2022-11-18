@@ -1,12 +1,16 @@
 ### Fortune Walla
 
-_Exploring the world through code!_
+_Exploring the world through code & data!_
 
 Articles & notes on a variety of technical, business & cultural topics. 
 
+![]("fwindexlogo.jpg")
+
 <img src="fwindexlogo.jpg"/>
 
-This website acts as a braindump, linkdump & study progress. Journey updates daily. Tech updates as and when required. Product updates are once a week.
+### Notes
+
+[SQL](sql.md) | [R](r.md) | []() | []() | []() | []() | []() | []() 
 
 ### Testing Section
 
